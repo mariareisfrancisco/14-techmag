@@ -10,4 +10,28 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+ padding: 20px;
+}
+
+article {
+ background-color: white;
+ padding: 30px;
+}
+
+.card {
+  background-color: #00fca6;
+  color: #105e42;
+  padding: 30px;
 }
