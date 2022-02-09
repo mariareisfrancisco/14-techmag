@@ -11,8 +11,17 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;    
   font-size: 15px;
+}
+
+header {
+ background-image: url("../img/web.jpg");
+ border: 2px solid white;
+}
+
+h1 {
+  color: white;
 }
 
 img {
@@ -21,17 +30,30 @@ img {
   height: auto;
 }
 
-main {
- padding: 20px;
+div p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+figure {
+  box-shadow: 5px 5px 15px 2px lightgrey ;
 }
 
 article {
  background-color: white;
- padding: 30px;
+ margin: 30px;
+ font-family: 'Open Sans', sans-serif;
 }
+
+.article {
+ color: black;
+} 
 
 .card {
   background-color: #00fca6;
   color: #105e42;
   padding: 30px;
+}
+
+footer {
+  border: 2px solid #00fca6;
 }
