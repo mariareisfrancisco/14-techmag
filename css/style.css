@@ -1,6 +1,7 @@
 /*
   font-family: 'Montserrat', sans-serif; 100it/800
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
+  #00fca6  #105e42
 */
 
 html {
@@ -15,45 +16,75 @@ body {
   font-size: 15px;
 }
 
-header {
- background-image: url("../img/web.jpg");
- border: 2px solid white;
+.header-body {
+  background-image: url("../img/web.jpg");
+  border: 2px solid white;
+  padding: 30px; 
+  margin: 25px 20px;
 }
 
-h1 {
+.title-name {
   color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.title-date {
+  color:#00fca6;
+  font-weight: 100;
+}
+
+.header-text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  background-color:#00fca6;
+  color: #105e42;
+  padding: 30px;
+  margin: 25px 20px;
+}
+
+.header-article {
+  color: black;
+}
+
+.article-title{
+  color:black;
+}
+
+.post-info {
+  color: lightgray;
+}
+
+.post-date {
+  color: black;
+}
+
+.post-autor {
+  color:#00fca6;
+}
+
+article {
+  background-color: white;
+  padding: 30px;
+  margin: 25px 20px;
+}
+
+.article-text {
+  color: black;
 }
 
 img {
   box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-}
-
-div p {
-  font-family: 'Montserrat', sans-serif;
+  width: 100%;
 }
 
 figure {
-  box-shadow: 5px 5px 15px 2px lightgrey ;
+  box-shadow: 5px 5px 10px lightgray;
 }
 
-article {
- background-color: white;
- margin: 30px;
- font-family: 'Open Sans', sans-serif;
-}
-
-.article {
- color: black;
-} 
-
-.card {
-  background-color: #00fca6;
-  color: #105e42;
-  padding: 30px;
-}
-
-footer {
-  border: 2px solid #00fca6;
+.button {
+  background-color: darkgray;
 }
