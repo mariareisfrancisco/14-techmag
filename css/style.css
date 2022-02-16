@@ -30,11 +30,11 @@ body {
   font-size: 25px;
 }
 
-.title-date {
+em {
   color:#00fca6;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header-text {
