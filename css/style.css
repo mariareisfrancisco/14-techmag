@@ -17,14 +17,14 @@ body {
   margin: auto;
 }
 
-.header-body {
+body header {
   background-image: url("../img/web.jpeg");
   border: 2px solid white;
   padding: 50px 30px; 
   margin: 0 0 20px;
 }
 
-.title-name {
+.title {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -39,7 +39,7 @@ em {
   font-style: italic;
 }
 
-.header-text {
+.tagline {
   color: #aaa;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -67,21 +67,17 @@ div h2{
   color:#0e6949;
  }
 
-.header-article {
-  color: black;
-}
-
-.post-info {
+.info {
   color: #aaaaaa;
   font-size: 12px;
   margin: 12px 0;
 }
 
-.post-date {
+.date {
   color: black;
 }
 
-.post-autor {
+.autor {
   color:#00fca6;
 }
 
@@ -91,7 +87,7 @@ article {
   margin-bottom: 20px;
 }
 
-.article-text {
+.text {
   color: black;
   font-weight: 400;
   margin: 16px 0;
@@ -126,20 +122,22 @@ figcaption {
   max-width: 100%;
 }
 
-.footer-article {
+p {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin: 16px 0 0;
+  margin: 16px 0;
 }
 
-.footer-body {
+footer {
   border:#00fca6 2px solid;
+  box-shadow: 0 0 12px #00fca655;
+}
+
+footer p {
   color: white;
   font-size: 10px;
   text-align: center;
   padding: 5px;
-  box-shadow: 0 0 12px #00fca655;
   margin: 10px 0;
 }
-
